@@ -18,7 +18,7 @@ int main(){
     AvlTree<int> T;
     set<int> S;
 
-    for(int i = 0; i < 10000000; i++){
+    for(int i = 0; i < 5000000; i++){
         inputs.push_back(i);
     }
 
@@ -38,7 +38,7 @@ int main(){
 //    cout << "R Totle Time : " <<(double)(endTime - startTime) / CLOCKS_PER_SEC << "s" << endl;
 
     startTime = clock();
-    for(int i = 0; i < 10000000; i++){
+    for(int i = 0; i < 5000000; i++){
         T.Insert(inputs[i]);
 //        T.ShowTree();
 //        cout << endl;

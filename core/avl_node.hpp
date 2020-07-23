@@ -30,11 +30,10 @@ public:
      *              2: need to rotation
      */
     inline int RepairCode(int navi){
-        int old_code = _balance_code;
         if(navi == right_navi){
-            _balance_code--;
+            --_balance_code;
         } else{
-            _balance_code++;
+            ++_balance_code;
         }
         return _balance_code;
     }

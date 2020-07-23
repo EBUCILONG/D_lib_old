@@ -15,31 +15,31 @@ public:
         _value = key;
     }
 
-    void SetLeft(NodeT* node){
+    inline void SetLeft(NodeT* node){
         _left_child = node;
     }
 
-    void SetRight(NodeT* node){
+    inline void SetRight(NodeT* node){
         _right_child = node;
     }
 
-    void SetParent(NodeT* node){
+    inline void SetParent(NodeT* node){
         _parent = node;
     }
 
-    T GetValue() const{
+    inline T GetValue() const{
         return _value;
     }
 
-    NodeT* LeftChild() {
+    inline NodeT* LeftChild() {
         return _left_child;
     }
 
-    NodeT* RightChild() {
+    inline NodeT* RightChild() {
         return _right_child;
     }
 
-    NodeT* Parent() {
+    inline NodeT* Parent() {
         return _parent;
     }
 
