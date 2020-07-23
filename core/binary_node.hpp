@@ -8,7 +8,7 @@
 template <class T, class NodeT>
 class BinaryNode {
 public:
-    BinaryNode(T value):_value(value),_parent(NULL),_left_child(NULL),_right_child(NULL){
+    BinaryNode(T value, NodeT* parent):_value(value),_parent(parent),_left_child(NULL),_right_child(NULL){
     }
 
     void SetValue(T key){

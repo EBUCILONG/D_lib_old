@@ -17,7 +17,7 @@ public:
     #define right_navi 1
     #define left_navi 0
 
-    AvlNode(int value):BinaryNode<int, AvlNode>(value), _balance_code(0){
+    AvlNode(int value, AvlNode<T>* parent, int navi):BinaryNode<int, AvlNode>(value, parent), _balance_code(0), _navigator(navi){
     }
 
     ~AvlNode(){
@@ -47,19 +47,28 @@ public:
         return _balance_code;
     }
 
-//    string ToString(){
-//        string result="{";
-//
-//        int left_v = -1;
-//        int right_v = -1;
-//        if(this->LeftChild() != NULL)
-//            left_v = this->LeftChild()->GetValue();
-//
-//        if(this->RightChild() != NULL)
-//            right_v = this->RightChild()->GetValue();
-//
-//        return result + to_string(left_v) + " " + to_string(this->GetValue()) + " " + to_string(right_v) + "}" +to_string(_balance_code);
-//    }
+    inline int GetNavi(){
+        return _navigator;
+    }
+
+    inline void SetNavi(int navi){
+        _navigator=navi;
+    }
+
+    string ToString(){
+        string result="{";
+
+        int left_v = -1;
+        int right_v = -1;
+        if(this->LeftChild() != NULL)
+            left_v = this->LeftChild()->GetValue();
+
+        if(this->RightChild() != NULL)
+            right_v = this->RightChild()->GetValue();
+
+        int tester = (this->_parent==NULL) ? -1 : this->_parent->GetValue();
+        return result + to_string(left_v) + " " + to_string(this->GetValue()) + " " + to_string(right_v) + "} " + to_string( tester ) + " " +to_string(_balance_code);
+    }
 
 //    void SetChildHeight(pair<int, int>& new_heights){
 //        _child_heights.first=new_heights.first;
@@ -133,4 +142,5 @@ private:
 //    int _child_height_L;
 //    int _child_height_R;
     int _balance_code;
+    int _navigator;
 };

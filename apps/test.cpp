@@ -40,7 +40,6 @@ int main(){
     startTime = clock();
     for(int i = 0; i < 10000000; i++){
         T.Insert(inputs[i]);
-
 //        T.ShowTree();
 //        cout << endl;
     }
