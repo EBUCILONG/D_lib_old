@@ -13,31 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5b2eca-395f-48d5-b894-ebe9e0803036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/apps/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/apps/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/apps/test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/test_R.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test" beforeDir="false" afterPath="$PROJECT_DIR$/build/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/avl_node.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/avl_node.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/avl_tree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/avl_tree.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/binary_node.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/core/binary_node.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -78,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/avl_node.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="69" column="131" selection-start-line="69" selection-start-column="131" selection-end-line="69" selection-end-column="131" />
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -90,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/avl_tree.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="261" column="35" lean-forward="true" selection-start-line="261" selection-start-column="35" selection-end-line="261" selection-end-column="35" />
+            <state relative-caret-position="915">
+              <caret line="66" column="7" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="66" selection-end-column="7" />
               <folding>
                 <element signature="e#4697#6214#0" />
                 <element signature="e#7585#8441#0" />
@@ -101,13 +78,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/test.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/test_R.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,9 +107,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/core/binary_node.hpp" />
-        <option value="$PROJECT_DIR$/core/avl_node.hpp" />
-        <option value="$PROJECT_DIR$/core/avl_tree.hpp" />
         <option value="$PROJECT_DIR$/apps/test.cpp" />
+        <option value="$PROJECT_DIR$/core/avl_tree.hpp" />
+        <option value="$PROJECT_DIR$/core/avl_node.hpp" />
       </list>
     </option>
   </component>
@@ -221,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595474507609</updated>
-      <workItem from="1595474509719" duration="10327000" />
+      <workItem from="1595474509719" duration="10446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10327000" />
+    <option name="totallyTimeSpent" value="10446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="782" extended-state="6" />
@@ -267,17 +249,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/avl_node.hpp">
+    <entry file="file://$PROJECT_DIR$/apps/test_R.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/test.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="69" column="131" selection-start-line="69" selection-start-column="131" selection-end-line="69" selection-end-column="131" />
+        <state relative-caret-position="525">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/avl_tree.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="261" column="35" lean-forward="true" selection-start-line="261" selection-start-column="35" selection-end-line="261" selection-end-column="35" />
+        <state relative-caret-position="915">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="66" selection-end-column="7" />
           <folding>
             <element signature="e#4697#6214#0" />
             <element signature="e#7585#8441#0" />
@@ -286,10 +271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/test.cpp">
+    <entry file="file://$PROJECT_DIR$/core/avl_node.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
